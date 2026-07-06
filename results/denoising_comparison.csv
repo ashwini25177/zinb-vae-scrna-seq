@@ -1,0 +1,6 @@
+method,pearson_r,median_abs_error
+Gene-mean imputation,0.7164989,2.3502624
+PCA,0.68435526,2.255262
+MSE-Autoencoder,0.6821855,2.3169394
+ZINB-VAE,0.6362291,0.8016594
+Zero (no imputation),,3.0502548

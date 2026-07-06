@@ -1,0 +1,27 @@
+# Data (large files — regenerate via src/data_processing.py instead of committing)
+data/*.h5ad
+data/*.h5
+data/*.csv
+data/*.tar.gz
+!data/.gitkeep
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Results (keep small figures, ignore large artifacts if needed)
+results/*.h5ad
+
+# OS
+.DS_Store
